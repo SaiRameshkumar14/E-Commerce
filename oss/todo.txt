@@ -1,0 +1,39 @@
+packages
+
+main -> Main
+register -> {admin R, customer R, admin L, customer L}
+dto -> User, Admin, Customer, Product
+service -> Order
+
+
+Main ->
+User -> name, email
+Customer -> User, address
+Admin -> User, role
+Product -> id, name, price, category
+Order -> id, User, product
+
+Main Menu :
+
+1 - Admin User
+2 - Customer User
+3 - Exit
+
+Admin Operations :
+
+1 - Add Admin
+2 - Remove admin
+3 - Add Product
+4 - Remove Product
+5 - Add Customer
+6 - Remove Customer
+7 - Delete Account
+8 - main menu
+9 - Exit
+10 - View Order History
+
+Customer Operations :
+
+1 - View Products
+2 - Place Order using Order id
+3 - View Order History using id

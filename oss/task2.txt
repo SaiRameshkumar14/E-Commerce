@@ -1,0 +1,59 @@
+Design and implement an Online Shopping System in Java that demonstrates Functions/Methods, Arrays and Strings, Classes and Objects, Constructors, Polymorphism, Inheritance, and Encapsulation.
+
+Detailed Requirements
+1. Classes and Objects
+
+Create the following classes:
+
+------User (base class)
+------Customer (inherits from User)
+-------Admin (inherits from User)
+-------Product (represents items for sale)
+Order (represents a customer’s purchase)
+
+2. Constructors
+
+------Implement default and parameterized constructors in all classes.
+-------Demonstrate constructor chaining in subclasses.
+
+3. Encapsulation
+
+-------All attributes should be private.
+-------Provide getter and setter methods with validation (e.g., price > 0, quantity ≥ 0).
+--------Prevent direct modification of sensitive data like orderId.
+
+4. Arrays and Strings
+
+-------Store multiple products in an array inside Admin.
+Implement a method to search for a product by name (String comparison).
+Sort products by price using a custom sorting algorithm.
+--------Display product names in uppercase using String operations.
+
+5. Functions / Methods
+
+Create methods:
+
+--------addProduct(Product p) in Admin
+placeOrder(Customer c, Product[] products) in Order
+calculateTotal() in Order
+
+
+Use method overloading for addProduct() (one version accepts a single product, another accepts an array of products).
+
+6. Inheritance
+
+-------Customer and Admin inherit from User.
+-------Common attributes: name, email.
+-------Additional attributes for Customer: address.
+-------Additional attributes for Admin: role.
+
+7. Polymorphism
+
+Create a method displayRole() in User and override it in Customer and Admin.
+Demonstrate runtime polymorphism using base class references.
+
+8. Additional Features
+
+Validate input (e.g., quantity cannot be negative).
+Display the most expensive product in the catalog.
+Use String operations for formatting output.
