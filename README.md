@@ -140,13 +140,3 @@ The application supports product management, user management, and order handling
 * Implement exception handling and logging
 * Enhance order management features
 
----
-
-If you want next:
-
-* ✅ Short GitHub repo description (1–2 lines)
-* ✅ Flow diagram explanation
-* ✅ Interview explanation version
-* ✅ Converted Spring Boot version design
-
-Just tell me 👍
